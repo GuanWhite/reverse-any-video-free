@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+report/
+frames/
+out.mp4
+REVERSE_FREE.md
+*.log

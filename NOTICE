@@ -1,0 +1,42 @@
+reverse-any-video-free
+Version 1.0.0
+
+This product is a derivative/adapted work of software developed by HeyGen
+and published in the open-source repository:
+
+    heygen-com/hyperframes
+    https://github.com/heygen-com/hyperframes
+    License: Apache License, Version 2.0 (see the LICENSE file in this directory)
+
+Source material used for this adaptation (retrieved 2026-11-11 from the
+repository main branch):
+
+    skills/reverse-any-video/SKILL.md           (blob ad95dd9d, 5,289 bytes)
+    skills/reverse-any-video/references/start.md
+    skills/reverse-any-video/references/match.md
+    skills/reverse-any-video/references/people.md
+    skills/reverse-any-video/references/animated.md
+    skills/hyperframes/SKILL.md                (render contract summary)
+    skills/media-use/SKILL.md                  (free vs paid capability table)
+
+Changes made (Apache-2.0 section 4(b)):
+
+    - Removed all HyperFrames Pro gating: reverse start, plan/subscription
+      checks, sign-in, billing, credits, cloud render and usage telemetry.
+    - Replaced the Reverse-only measure/diff commands with original local
+      Python + ffmpeg implementations in scripts/.
+    - Replaced HeyGen generative re-shooting and animated-shot generation with
+      offline crop-based fallbacks; documented the resulting capability loss.
+    - Rewrote the workflow as a self-contained SKILL.md with its own
+      references/, docs/ and examples/ so no other skill or account is needed.
+    - Added dependency/permission auditing and an offline end-to-end self-test.
+
+Measurement conventions, the layered-rebuild strategy, the CSS/SVG matching
+recipes and the HTML timeline contract summary are adapted from the files
+above and remain credited to the upstream authors.
+
+This project is NOT an official HeyGen product and is not affiliated with,
+endorsed by, or sponsored by HeyGen. "HyperFrames" is used only to identify
+the open-source format and the optional free local CLI this skill can target.
+The name "reverse-any-video-free" and all original scripts in this repository
+are provided under the same Apache License 2.0.
